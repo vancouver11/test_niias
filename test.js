@@ -22,8 +22,6 @@ function summarize(arr) {
     }
     
     return summ;
-
-
  
 }
 
@@ -39,6 +37,7 @@ function checkType(element) {
         
         return  Number(Array.isArray(element));
     }
+    
     return 2    
     
 }
