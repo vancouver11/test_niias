@@ -43,10 +43,10 @@ function checkType(element) {
 }
 
 function ChangeStringToNumber(element){
-   if(isNaN(+element[0])) return 0;
+   if(isNaN(element[0])) return 0;
 
    for (let i = 1; i < element.length; i++) {
-        if (isNaN(+element[i])) return +element.slice(0, i) 
+        if (isNaN(element[i])) return +element.slice(0, i) 
    }
    
 }
